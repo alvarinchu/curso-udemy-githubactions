@@ -1,0 +1,8 @@
+name: First workflow
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "linter"
+      - run: npm run lint
