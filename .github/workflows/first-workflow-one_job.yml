@@ -1,0 +1,14 @@
+name: First workflow 1 job
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: npm run lint
+      - run: echo "lint OK"
+      - run: npm run test
+      - run: echo "test OK"
+      - run: echo "deployed OK"
+  
