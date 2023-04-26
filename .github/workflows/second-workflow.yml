@@ -1,0 +1,9 @@
+name: Secound worflow - push issue
+on: issues
+jobs:
+  gestion-issue:
+    runs-on: ubuntu-latest
+    steps:
+        - run: echo '${{ toJSON(github) }}'
+
+    

@@ -1,4 +1,4 @@
-name: First workflow 1 job
+name: First workflow - push commit - 1 job
 on: push
 jobs:
   lint:
