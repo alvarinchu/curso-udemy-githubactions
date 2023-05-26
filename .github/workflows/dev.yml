@@ -1,0 +1,16 @@
+name: test dev branch
+on: 
+  push:
+    branches:
+      - dev
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: paso 1
+        run: echo ${{ github.action }}
+
+
+
+      
