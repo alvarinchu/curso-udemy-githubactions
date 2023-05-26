@@ -10,7 +10,12 @@ jobs:
     steps:
       - name: paso 1
         run: echo ${{ github.action }}
-
+  
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: paso 1
+        run: echo ${{ github.action }}
 
 
       
