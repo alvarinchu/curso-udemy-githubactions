@@ -4,5 +4,5 @@ jobs:
   gestion-issue:
     runs-on: ubuntu-latest
     steps:
-        - name: get issue details
-          run: echo "${{ toJSON(github.event) }}"
+      - name: get issue details
+        run: echo "${{ toJSON(github.event) }}"
