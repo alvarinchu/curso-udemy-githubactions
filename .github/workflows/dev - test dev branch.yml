@@ -1,8 +1,8 @@
 name: test dev branch
-on: 
+on:
   push:
     branches:
-      - dev
+      - disabled
 
 jobs:
   job1:
@@ -10,12 +10,9 @@ jobs:
     steps:
       - name: paso 1
         run: echo ${{ github.action }}
-  
+
   job2:
     runs-on: ubuntu-latest
     steps:
       - name: paso 1
         run: echo ${{ github.action }}
-
-
-      

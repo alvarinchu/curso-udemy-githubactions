@@ -1,8 +1,8 @@
-name: First workflow - push commit - 3 jobs 
-on: 
+name: First workflow - push commit - 3 jobs
+on:
   push:
     branches:
-      - main
+      - madisabledin
 jobs:
   lint:
     runs-on: ubuntu-latest
